@@ -17,6 +17,6 @@ peer chaincode invoke -o localhost:7050 --ordererTLSHostnameOverride orderer.exa
 --tlsRootCertFiles ${PEER0_ORG1_CA} \
 --peerAddresses localhost:9051 \
 --tlsRootCertFiles ${CORE_PEER_TLS_ROOTCERT_FILE} \
- -c '{"function":"init","Args":[]}'
+ -c '{"function":"Invoke","Args":["fred"]}'
 
  

@@ -14,5 +14,5 @@ CC_VERSION="1"
 
 pushd ~/git/provendb-hyperledger/test-network
 # ./network.sh createChannel -c guy1 
- ./network.sh deployCC -c guy1 -ccn guy1 -ccp $CC_SRC_PATH -ccl javascript -ccv 4 -ccs 1 -cci 'init'
+ ./network.sh deployCC -c guy1 -ccn guy1 -ccp $CC_SRC_PATH -ccl javascript -ccv 5 -ccs 5 -cci 'init'
 popd
